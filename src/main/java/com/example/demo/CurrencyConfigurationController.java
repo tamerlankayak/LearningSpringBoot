@@ -10,7 +10,7 @@ public class CurrencyConfigurationController {
     @Autowired
     private CurrencyServiceConfiguration configuration;
 
-    @RequestMapping("/currency=configuration")
+    @RequestMapping("/currency-configuration")
     public CurrencyServiceConfiguration retrieveAllDAta() {
         return configuration;
     }
